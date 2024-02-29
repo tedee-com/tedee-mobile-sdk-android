@@ -2,4 +2,4 @@ jdk:
   - openjdk11
 install: 
   - FILE="-Dfile=android-ble-sdk-0.0.1.aar" 
-  - mvn install:install-file $FILE -DgroupId=com.tedee -DartifactId=android-ble-sdk -Dversion=0.0.1 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.tedee -DartifactId=android-ble-sdk -Dversion=0.0.1 -Dpackaging=aar -DpomFile=pom.xml

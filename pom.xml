@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <!-- This module was also published with a richer model, Gradle metadata,  -->
   <!-- which should be used instead. Do not delete the following line which  -->
   <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
@@ -52,4 +53,26 @@
       <version>1.6.1</version>
     </dependency>
   </dependencies>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://api.github.com/licenses/apache-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <url>https://github.com/tedee-com/tedee-mobile-sdk-android</url>
+  <inceptionYear>2024</inceptionYear>
+  <developers>
+    <developer>
+      <id>tedee-com</id>
+      <name>Tedee</name>
+      <email>support@tedee.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/tedee-com/tedee-mobile-sdk-android.git</connection>
+    <developerConnection>scm:git://github.com/tedee-com/tedee-mobile-sdk-android.git
+    </developerConnection>
+    <url>git://github.com/tedee-com/tedee-mobile-sdk-android.git</url>
+  </scm>
 </project>
