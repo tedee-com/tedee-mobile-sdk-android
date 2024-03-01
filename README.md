@@ -36,6 +36,14 @@ dependencies {
 }
 ```
 
+Or if you are using Groovy instead of Kotlin:
+
+```gradle
+dependencies {
+  implementation("com.github.tedee-com:tedee-mobile-sdk-android:v0.0.1@aar") { transitive = true }
+}
+```
+
 ### Configuration
 
 To properly use sdk you will need:
