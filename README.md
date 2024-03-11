@@ -2,6 +2,10 @@
 
 Welcome to the Tedee Mobile SDK for Android! This comprehensive toolkit empowers developers to seamlessly integrate Tedee Lock functionality into their Android applications. Whether you're building a smart home app or enhancing access control features, our SDK provides the necessary tools to communicate with and control Tedee locks with ease, leveraging Bluetooth Low Energy (BLE) communication protocol.
 
+## Documentation
+
+[Mobile SDK Documentation](https://tedee-com.github.io/tedee-mobile-sdk-android/)
+
 ## Features
 
 - **Effortless Integration**: Incorporate Tedee lock functionality into your Android applications seamlessly.
