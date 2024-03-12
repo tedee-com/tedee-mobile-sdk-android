@@ -23,18 +23,18 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Console logs**
-Include any relevant console logs or stack traces from Xcode or other IDEs here.
+Include any relevant console logs or stack traces from Android Studio or other IDEs here.
 
 **Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
+ - Device: [e.g. Pixel 7]
+ - OS: [e.g. Android 14]
  - Mobile SDK version: [e.g. v.0.0.1]
 
 **Tedee Lock information**
 If the issue is related to interacting with a Tedee Lock, please provide the following details: 
  - Firmware Version:
  - Model: [e.g., PRO, GO]
- - Connection Status: [Connected via BT / Connected via Bridge / Disconnected]
+ - Is the lock paired with the bridge?
  - Is the lock added to account?
 
 **Additional context**
