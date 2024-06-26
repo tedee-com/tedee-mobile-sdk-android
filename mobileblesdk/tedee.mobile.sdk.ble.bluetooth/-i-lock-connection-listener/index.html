@@ -45,7 +45,7 @@
                     </a>
             </div>
             <div class="library-version">
-            </div>
+v0.0.2            </div>
         </div>
         <div class="filter-section" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobileblesdk:dokkaHtml/release">androidJvm</button>
@@ -65,54 +65,39 @@
   <div class="breadcrumbs"><a href="../../../index.html">mobileblesdk</a><span class="delimiter">/</span><a href="../index.html">tedee.mobile.sdk.ble.bluetooth</a><span class="delimiter">/</span><span class="current">ILockConnectionListener</span></div>
   <div class="cover ">
     <h1 class="cover"><span>ILock</span><wbr></wbr><span>Connection</span><wbr></wbr><span><span>Listener</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">ILockConnectionListener</a></div><p class="paragraph">Interface definition for a listener to be notified of lock connection events and messages. Implementations of this interface can be used to receive callbacks when the connection status changes, indication messages are received, notifications are received, or errors occur during lock communication.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">ILockConnectionListener</a> : <a href="../-i-base-lock-connection-listener/index.html">IBaseLockConnectionListener</a></div><p class="paragraph">Interface definition for a listener to be notified of secure lock connection events. Implementations of this interface can be used to receive callbacks when the secure connection status changes or there is a change in the lock's state.</p></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
       <div data-togglable="FUNCTION">
         <h2 class="">Functions</h2>
-        <div class="table"><a data-name="-655959209%2FFunctions%2F-261839533" anchor-label="onConnectionChanged" id="-655959209%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+        <div class="table"><a data-name="1840994578%2FFunctions%2F-261839533" anchor-label="onError" id="1840994578%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
           <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="on-connection-changed.html"><span>on</span><wbr></wbr><span>Connection</span><wbr></wbr><span><span>Changed</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-655959209%2FFunctions%2F-261839533"></span>
+                  <div><a href="../-i-base-lock-connection-listener/on-error.html"><span>on</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1840994578%2FFunctions%2F-261839533"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-connection-changed.html"><span class="token function">onConnectionChanged</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isConnecting<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">connected<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the connection status to the lock changes.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../-i-base-lock-connection-listener/on-error.html"><span class="token function">onError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">throwable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html">Throwable</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when an error occurs during the lock communication. E.g. when the lock requires a factory reset DeviceNeedsResetError will be thrown.</p></div></div></div>
                 </div>
               </div>
             </div>
           </div>
-<a data-name="-858532573%2FFunctions%2F-261839533" anchor-label="onError" id="-858532573%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+<a data-name="1930553388%2FFunctions%2F-261839533" anchor-label="onLockConnectionChanged" id="1930553388%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
           <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="on-error.html"><span>on</span><wbr></wbr><span><span>Error</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-858532573%2FFunctions%2F-261839533"></span>
+                  <div><a href="on-lock-connection-changed.html"><span>on</span><wbr></wbr><span>Lock</span><wbr></wbr><span>Connection</span><wbr></wbr><span><span>Changed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1930553388%2FFunctions%2F-261839533"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-error.html"><span class="token function">onError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">throwable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html">Throwable</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when an error occurs during the lock communication.</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="-95968164%2FFunctions%2F-261839533" anchor-label="onIndication" id="-95968164%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="on-indication.html"><span>on</span><wbr></wbr><span><span>Indication</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-95968164%2FFunctions%2F-261839533"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-indication.html"><span class="token function">onIndication</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when an indication message is received from the lock.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-lock-connection-changed.html"><span class="token function">onLockConnectionChanged</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isConnecting<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">isConnected<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the secure connection status to the lock changes.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -132,17 +117,17 @@
               </div>
             </div>
           </div>
-<a data-name="807434733%2FFunctions%2F-261839533" anchor-label="onNotification" id="807434733%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+<a data-name="1116240670%2FFunctions%2F-261839533" anchor-label="onNotification" id="1116240670%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
           <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="on-notification.html"><span>on</span><wbr></wbr><span><span>Notification</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="807434733%2FFunctions%2F-261839533"></span>
+                  <div><a href="../-i-base-lock-connection-listener/on-notification.html"><span>on</span><wbr></wbr><span><span>Notification</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1116240670%2FFunctions%2F-261839533"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-notification.html"><span class="token function">onNotification</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when a notification is received from the lock.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../-i-base-lock-connection-listener/on-notification.html"><span class="token function">onNotification</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when a notification is received from the lock.</p></div></div></div>
                 </div>
               </div>
             </div>

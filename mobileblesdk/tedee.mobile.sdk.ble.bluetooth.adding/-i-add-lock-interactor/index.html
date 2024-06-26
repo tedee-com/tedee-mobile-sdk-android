@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>IAddLockInteractor</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            mobileblesdk
+                    </a>
+            </div>
+            <div class="library-version">
+v0.0.2            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobileblesdk:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="mobileblesdk::tedee.mobile.sdk.ble.bluetooth.adding/IAddLockInteractor///PointingToDeclaration//-261839533">
+  <div class="breadcrumbs"><a href="../../../index.html">mobileblesdk</a><span class="delimiter">/</span><a href="../index.html">tedee.mobile.sdk.ble.bluetooth.adding</a><span class="delimiter">/</span><span class="current">IAddLockInteractor</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>IAdd</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Interactor</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">IAddLockInteractor</a></div><p class="paragraph">Interface defining operations for adding lock to account. This includes unsecure connecting to the lock, getting all needed data from the lock (like firmware version, device settings, and signature), and registering the device.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-add-lock-connection-manager/index.html">AddLockConnectionManager</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-206103507%2FFunctions%2F-261839533" anchor-label="clear" id="-206103507%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="clear.html"><span><span>clear</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-206103507%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="clear.html"><span class="token function">clear</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Clear all resources and close active connection</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-985998635%2FFunctions%2F-261839533" anchor-label="connectForAdding" id="-985998635%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="connect-for-adding.html"><span>connect</span><wbr></wbr><span>For</span><wbr></wbr><span><span>Adding</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-985998635%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="connect-for-adding.html"><span class="token function">connectForAdding</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serialNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">keepConnection<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">true</span><span class="token punctuation">, </span></span><span class="parameter ">addLockConnectionListener<span class="token operator">: </span><a href="../-i-add-lock-connection-listener/index.html">IAddLockConnectionListener</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Initiates an add lock connection to the lock.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="415157924%2FFunctions%2F-261839533" anchor-label="disconnect" id="415157924%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disconnect.html"><span><span>disconnect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="415157924%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="disconnect.html"><span class="token function">disconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Disconnect from the lock and notify the listener</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-309577047%2FFunctions%2F-261839533" anchor-label="getAddLockData" id="-309577047%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-add-lock-data.html"><span>get</span><wbr></wbr><span>Add</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-309577047%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="get-add-lock-data.html"><span class="token function">getAddLockData</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activationCode<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">serialNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-create-door-lock-data/index.html">CreateDoorLockData</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves all necessary data from the lock required to add it to your account.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="995780414%2FFunctions%2F-261839533" anchor-label="getSignature" id="995780414%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-signature.html"><span>get</span><wbr></wbr><span><span>Signature</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="995780414%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="get-signature.html"><span class="token function">getSignature</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves the signature from the lock.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1657274560%2FFunctions%2F-261839533" anchor-label="getUnsecureDeviceSettings" id="-1657274560%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-unsecure-device-settings.html"><span>get</span><wbr></wbr><span>Unsecure</span><wbr></wbr><span>Device</span><wbr></wbr><span><span>Settings</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1657274560%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="get-unsecure-device-settings.html"><span class="token function">getUnsecureDeviceSettings</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isLockAdded<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-device-settings/index.html">DeviceSettings</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves the device settings from the lock (without secure session).</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-167775186%2FFunctions%2F-261839533" anchor-label="getUnsecureFirmwareVersion" id="-167775186%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-unsecure-firmware-version.html"><span>get</span><wbr></wbr><span>Unsecure</span><wbr></wbr><span>Firmware</span><wbr></wbr><span><span>Version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-167775186%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="get-unsecure-firmware-version.html"><span class="token function">getUnsecureFirmwareVersion</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isLockAdded<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-firmware-version/index.html">FirmwareVersion</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves the firmware version from the lock (without secure session).</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1678402053%2FFunctions%2F-261839533" anchor-label="registerDevice" id="-1678402053%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="register-device.html"><span>register</span><wbr></wbr><span><span>Device</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1678402053%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="register-device.html"><span class="token function">registerDevice</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">registerDeviceData<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-register-device-data/index.html">RegisterDeviceData</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Registers the device with the given registration data.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1061886893%2FFunctions%2F-261839533" anchor-label="setSignedTime" id="1061886893%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-signed-time.html"><span>set</span><wbr></wbr><span>Signed</span><wbr></wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1061886893%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="set-signed-time.html"><span class="token function">setSignedTime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">signedTime<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-signed-time/index.html">SignedTime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Sends the SET_SIGNED_TIME (0x71) command to the lock with the provided signed time. This command is crucial for ensuring that the lock's operations are synchronized with a trusted time source, enhancing the security and reliability of its operations.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

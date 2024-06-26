@@ -45,7 +45,7 @@
                     </a>
             </div>
             <div class="library-version">
-            </div>
+v0.0.2            </div>
         </div>
         <div class="filter-section" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobileblesdk:dokkaHtml/release">androidJvm</button>
@@ -66,7 +66,7 @@
   <div class="cover ">
     <h1 class="cover"><span>pull</span><wbr></wbr><span><span>Spring</span></span></h1>
   </div>
-  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="pull-spring.html"><span class="token function">pullSpring</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Sends a PULL_SPRING (0x52) command to pull the spring. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. The response is a ByteArray representing the lock's result, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS]</code>.</p><p class="paragraph">For example, a successful response is 52, 00 when is success, where:</p><ul><li><p class="paragraph">52 indicates the PULL_SPRING command.</p></li><li><p class="paragraph">00 means the command completed successfully.</p></li></ul></div></div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="pull-spring.html"><span class="token function">pullSpring</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><p class="paragraph">Sends a PULL_SPRING (0x52) command to pull the spring. The response is a Byte representing the lock's result, 00 means the command completed successfully.</p></div></div>
 </div>
       <div class="footer">
         <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span

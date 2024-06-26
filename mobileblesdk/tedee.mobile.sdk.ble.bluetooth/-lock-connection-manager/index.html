@@ -45,7 +45,7 @@
                     </a>
             </div>
             <div class="library-version">
-            </div>
+v0.0.2            </div>
         </div>
         <div class="filter-section" id="filter-section">
                 <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":mobileblesdk:dokkaHtml/release">androidJvm</button>
@@ -135,7 +135,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="close-lock.html"><span class="token function">closeLock</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">param<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends a CLOSE_LOCK (0x50) command to lock the lock. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. The response is a ByteArray representing the lock's result, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS]</code>.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="close-lock.html"><span class="token function">closeLock</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">param<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends a CLOSE_LOCK (0x50) command to lock the lock.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serialNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">deviceCertificate<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-device-certificate/index.html">DeviceCertificate</a><span class="token punctuation">, </span></span><span class="parameter ">keepConnection<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">listener<span class="token operator">: </span><a href="../-i-lock-connection-listener/index.html">ILockConnectionListener</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Initiates a connection to the lock.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">serialNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">deviceCertificate<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-device-certificate/index.html">DeviceCertificate</a><span class="token punctuation">, </span></span><span class="parameter ">keepConnection<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">secureConnectionListener<span class="token operator">: </span><a href="../-i-lock-connection-listener/index.html">ILockConnectionListener</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Initiates a secure connection to the lock.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -170,6 +170,36 @@
               </div>
             </div>
           </div>
+<a data-name="456039255%2FFunctions%2F-261839533" anchor-label="getDeviceSettings" id="456039255%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-device-settings.html"><span>get</span><wbr></wbr><span>Device</span><wbr></wbr><span><span>Settings</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="456039255%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="get-device-settings.html"><span class="token function">getDeviceSettings</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isLockAdded<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-device-settings/index.html">DeviceSettings</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves the device settings from the lock.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="920443639%2FFunctions%2F-261839533" anchor-label="getFirmwareVersion" id="920443639%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-firmware-version.html"><span>get</span><wbr></wbr><span>Firmware</span><wbr></wbr><span><span>Version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="920443639%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="get-firmware-version.html"><span class="token function">getFirmwareVersion</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">isLockAdded<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-firmware-version/index.html">FirmwareVersion</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieves the firmware version from the lock.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
 <a data-name="-2040570551%2FFunctions%2F-261839533" anchor-label="getLockState" id="-2040570551%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
           <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
             <div class="main-subrow keyValue ">
@@ -180,7 +210,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="get-lock-state.html"><span class="token function">getLockState</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends a GET_STATE (0x5A) command to the lock. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. The response is a ByteArray representing the lock's status, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS, ACTUAL_LOCK_STATE, LOCK_STATUS]</code>.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="get-lock-state.html"><span class="token function">getLockState</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Sends a GET_STATE (0x5A) command to the lock. The response is a ByteArray representing the lock's status, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS, ACTUAL_LOCK_STATE, LOCK_STATUS]</code>.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -195,7 +225,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="open-lock.html"><span class="token function">openLock</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">param<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends an OPEN_LOCK (0x51) command to unlock the lock. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. The response is a ByteArray representing the lock's result, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS]</code>.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="open-lock.html"><span class="token function">openLock</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">param<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends an OPEN_LOCK (0x51) command to unlock the lock.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -210,7 +240,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="pull-spring.html"><span class="token function">pullSpring</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends a PULL_SPRING (0x52) command to pull the spring. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. The response is a ByteArray representing the lock's result, structured as follows: <code class="lang-kotlin">[COMMAND, COMMAND_RESULT_STATUS]</code>.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="pull-spring.html"><span class="token function">pullSpring</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends a PULL_SPRING (0x52) command to pull the spring Before sending the command, this function checks the state of Bluetooth and location services:</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -225,7 +255,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="send-command.html"><span class="token function">sendCommand</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a><span class="token punctuation">, </span></span><span class="parameter ">params<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Send any command to the Lock. The lock's response is provided through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method from the ILockConnectionListener.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="send-command.html"><span class="token function">sendCommand</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a><span class="token punctuation">, </span></span><span class="parameter ">params<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Send any command to the Lock.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -240,7 +270,22 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="set-signed-time.html"><span class="token function">setSignedTime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">signedTime<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-signed-time/index.html">SignedTime</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sends the SET_SIGNED_TIME (0x71) command to the lock with the provided signed time. The lock's response will be communicated through the <a href="../-i-lock-connection-listener/on-indication.html">ILockConnectionListener.onIndication</a> method. This command is crucial for ensuring that the lock's operations are synchronized with a trusted time source, enhancing the security and reliability of its operations.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="set-signed-time.html"><span class="token function">setSignedTime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">signedTime<span class="token operator">: </span><a href="../../tedee.mobile.sdk.ble.model/-signed-time/index.html">SignedTime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Sends the SET_SIGNED_TIME (0x71) command to the lock with the provided signed time. This command is crucial for ensuring that the lock's operations are synchronized with a trusted time source, enhancing the security and reliability of its operations.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-766625049%2FFunctions%2F-261839533" anchor-label="waitForLockStatusChange" id="-766625049%2FFunctions%2F-261839533" data-filterable-set=":mobileblesdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":mobileblesdk:dokkaHtml/release" data-filterable-set=":mobileblesdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="wait-for-lock-status-change.html"><span>wait</span><wbr></wbr><span>For</span><wbr></wbr><span>Lock</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Change</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-766625049%2FFunctions%2F-261839533"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":mobileblesdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">suspend override </span><span class="token keyword">fun </span><a href="wait-for-lock-status-change.html"><span class="token function">waitForLockStatusChange</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">lockState<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a><span class="token punctuation">, </span></span><span class="parameter ">timeoutInSeconds<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Waits for lock state change.</p></div></div></div>
                 </div>
               </div>
             </div>
