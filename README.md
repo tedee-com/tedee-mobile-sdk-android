@@ -20,8 +20,7 @@ Getting started with the Tedee Mobile SDK is straightforward:
 
 Step 1. Add the JitPack repository to your build file.
 
-Add it in your root build.gradle at the end of repositories:
-
+Add it in your settings.gradle or settings.gradle.kts if you use Kotlin:
 ```gradle
 dependencyResolutionManagement {
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -29,6 +28,16 @@ dependencyResolutionManagement {
       mavenCentral()
       maven { url 'https://jitpack.io' }
     }
+}
+```
+
+Or directly in root build.gradle if there will be a problem with sync build gradle:
+
+```gradle
+repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 ```
 
@@ -50,17 +59,27 @@ dependencies {
 
 ### Configuration
 
-To properly use sdk you will need:
+To properly use sdk for lock already added to account you will need:
 
 - register your app with your app name and mobile public key (https://api.tedee.com/swagger/index.html#/Mobile/PostMobile, mobile public key is generated with `getMobilePublicKey()` See example app)
 - provide lock serial number and device name (you can find it in Tedee app "Lock settings" -> "Information")
-- get device public key, certificate and certificate expiry date (see example app how to get them from Tedee API)
+- get device public key, certificate and certificate expiry date (see example app how to get them from Tedee API - (Documentation)[https://github.com/tedee-com/tedee-example-ble-android/blob/master/README.md])
 
-When all required data is provided you can try to connect to the lock using `LockConnectionManager's` `connect(serialNumber: String, deviceCertificate: DeviceCertificate, keepConnection: Boolean = false, listener: ILockConnectionListener)` method.
+When all required data is provided you can try to secure connect to the lock using `LockConnectionManager's` `connect(serialNumber: String, deviceCertificate: DeviceCertificate, keepConnection: Boolean = false, secureConnectionListener: ILockConnectionListener)` method.
+
+To properly use sdk for lock not added to account you will need:
+
+- provide lock serial number. You can get it from (Tedee API)[https://api.tedee.com] based on Activation Code. See example app how to get them from Tedee API - (Add lock documentation)[https://github.com/tedee-com/tedee-example-ble-android/blob/master/ADD_LOCK_README.md]
+
+When all required data is provided you can try to connect to the lock using `AddLockConnectionManager's` `connectForAdding(serialNumber: String, keepConnection: Boolean = true, addLockConnectionListener: IAddLockConnectionListener)` method.
 
 ## Example App
 
 Explore the capabilities of the Tedee Mobile SDK through our [example app](https://github.com/tedee-com/tedee-example-ble-android). This example app demonstrates various use cases and serves as a practical guide for integrating the SDK into your projects.
+
+### Add Lock Documentation
+
+Documentation describing basic steps required to add a lock to your Tedee account and register the lock device. (Add lock documentation)[https://github.com/tedee-com/tedee-example-ble-android/blob/master/ADD_LOCK_README.md]
 
 ### API Documentation
 
