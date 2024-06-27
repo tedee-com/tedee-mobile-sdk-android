@@ -45,7 +45,7 @@ Step 2. Add the dependency
 
 ```gradle
 dependencies {
-  implementation("com.github.tedee-com:tedee-mobile-sdk-android:v0.0.2@aar") { isTransitive = true }
+  implementation("com.github.tedee-com:tedee-mobile-sdk-android:v0.0.3@aar") { isTransitive = true }
 }
 ```
 
@@ -53,7 +53,7 @@ Or if you are using Groovy instead of Kotlin:
 
 ```gradle
 dependencies {
-  implementation("com.github.tedee-com:tedee-mobile-sdk-android:v0.0.2@aar") { transitive = true }
+  implementation("com.github.tedee-com:tedee-mobile-sdk-android:v0.0.3@aar") { transitive = true }
 }
 ```
 
