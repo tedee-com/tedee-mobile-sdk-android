@@ -10,13 +10,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tedee</groupId>
   <artifactId>android-ble-sdk</artifactId>
-  <version>0.0.1</version>
-  <dependencies>
-    <dependency>
-      <groupId>org.jetbrains.kotlin</groupId>
-      <artifactId>kotlin-stdlib</artifactId>
-      <version>1.9.22</version>
-    </dependency>
+  <version>0.0.3</version>
+  <dependencies>	
     <dependency>
       <groupId>io.reactivex.rxjava2</groupId>
       <artifactId>rxandroid</artifactId>
@@ -33,6 +28,11 @@
       <version>2.4.0</version>
     </dependency>
     <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-rx2</artifactId>
+      <version>1.8.1</version>
+    </dependency>
+    <dependency>
       <groupId>com.jakewharton.timber</groupId>
       <artifactId>timber</artifactId>
       <version>5.0.1</version>
@@ -40,17 +40,22 @@
     <dependency>
       <groupId>com.polidea.rxandroidble2</groupId>
       <artifactId>rxandroidble</artifactId>
-      <version>1.17.2</version>
+      <version>1.18.1</version>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.12.0</version>
+      <version>1.13.1</version>
     </dependency>
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
-      <version>1.6.1</version>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.9.22</version>
     </dependency>
   </dependencies>
   <licenses>
