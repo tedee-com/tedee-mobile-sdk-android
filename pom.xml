@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tedee</groupId>
   <artifactId>android-ble-sdk</artifactId>
-  <version>0.0.3</version>
+  <version>1.0.0</version>
   <dependencies>	
     <dependency>
       <groupId>io.reactivex.rxjava2</groupId>

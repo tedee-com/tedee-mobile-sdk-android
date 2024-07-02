@@ -45,7 +45,7 @@ Step 2. Add the dependency
 
 ```gradle
 dependencies {
-  implementation("com.github.tedee-com:tedee-mobile-sdk-android:0.0.3-alpha@aar") { isTransitive = true }
+  implementation("com.github.tedee-com:tedee-mobile-sdk-android:1.0.0@aar") { isTransitive = true }
 }
 ```
 
@@ -53,7 +53,7 @@ Or if you are using Groovy instead of Kotlin:
 
 ```gradle
 dependencies {
-  implementation("com.github.tedee-com:tedee-mobile-sdk-android:0.0.3-alpha@aar") { transitive = true }
+  implementation("com.github.tedee-com:tedee-mobile-sdk-android:1.0.0@aar") { transitive = true }
 }
 ```
 
@@ -104,9 +104,9 @@ Documentation describing public API of the Tedee Lock framework is available at 
 
 For more details about Tedee Lock BLE API, available commands, their parameters, notifications and more please refer to our BLE API documentation available at [https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html](https://tedee-tedee-lock-ble-api-doc.readthedocs-hosted.com/en/latest/index.html).
 
-### Disclaimer
+### Known issues
 
-Provided SDK is currently in alpha phase. New versions of the SDK can contain changes in public API. Please take a look at release notes.
+Right now there is an issue on Google Pixel 4a device with generating mobile key pair. We are working on it and will fix it soon. As workaround please use other device.
 
 ### Support
 
