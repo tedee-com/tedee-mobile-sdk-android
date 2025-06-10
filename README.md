@@ -113,3 +113,7 @@ Right now there is an issue on Google Pixel 4a device with generating mobile key
 For any inquiries, feedback, or assistance, our Android team is here to help. Reach out to us at [Discussions](https://github.com/tedee-com/tedee-mobile-sdk-android/discussions) section with any questions or concerns you may have.
 
 We're excited to witness the innovative solutions you create with the Tedee Mobile SDK! Happy coding! 🚀
+
+### Legal Notice
+
+By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE.md) and the [LEGAL_NOTICE](./LEGAL_NOTICE.md). Please review these documents before integrating or distributing the SDK.
