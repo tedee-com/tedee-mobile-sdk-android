@@ -116,4 +116,4 @@ We're excited to witness the innovative solutions you create with the Tedee Mobi
 
 ### Legal Notice
 
-By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE) and the [LEGAL_NOTICE](./LEGAL_NOTICE.md). Please review these documents before integrating or distributing the SDK.
+By using the Tedee Mobile SDK, you agree to the terms of the [LICENSE](./LICENSE) and the [Terms of Use Tedee APIs and SDKs](https://tedee.com/terms-of-use-tedee-apis-and-sdks/). Please review these documents before integrating or distributing the SDK.
